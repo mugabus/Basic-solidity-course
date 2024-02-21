@@ -5,8 +5,8 @@ pragma solidity ^0.8.23;
 
 contract ArrayofNumAndText{
 
-    uint256 public Mynumber;
-    string public Myname;
+    uint256  Mynumber;
+    string  Myname;
     
     struct Person{
         uint256 Number;
@@ -17,7 +17,7 @@ contract ArrayofNumAndText{
 
     function store(uint256 _number, string memory _name) public {
         Mynumber=_number; Myname=_name;
-        ListofPerson.push(Person(_number,_name));
+        
     }
 
     function retrieve() public view returns(uint256, string memory){

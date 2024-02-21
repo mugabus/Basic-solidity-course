@@ -8,22 +8,41 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "FindNumByText",
+				"outputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "ListofPerson",
-				"outputs": [
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "Number",
+						"name": "",
 						"type": "uint256"
-					},
+					}
+				],
+				"name": "ListofAnimals",
+				"outputs": [
 					{
 						"internalType": "string",
 						"name": "Name",
 						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Number",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -42,7 +61,7 @@
 						"type": "string"
 					}
 				],
-				"name": "addPerson",
+				"name": "addAnimal",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -97,7 +116,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/third.sol": "ArrayofNumAndText"
+			"contracts/mapping.sol": "Mapping"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -111,12 +130,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/third.sol": {
-			"keccak256": "0x226a7c422ea4f89699890598eeb5441b129847cdceb6ce512c678c7098e45d6f",
+		"contracts/mapping.sol": {
+			"keccak256": "0x4902120c4dcad124211aa9ba246b5f7eca99b5943ebaf4ea680b2ab91ab735e7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e157f43908ee8fdc098157f56f4be98138ee834e0551f0c4c25bad8ae5e8f602",
-				"dweb:/ipfs/QmVGrjiPgoutommb26wDBGc4xF92awoHv7sAFPy7tgSjC7"
+				"bzz-raw://dc8343baa1bbbf43b8fcc9175a5d5051ff63195be1932e042453c6baf7647807",
+				"dweb:/ipfs/QmQ557CgrudHZRosHC99D2bhwref3eFF6jn45q9Tp2E8nP"
 			]
 		}
 	},
