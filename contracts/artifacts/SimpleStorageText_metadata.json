@@ -7,12 +7,25 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "Name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "retrieve",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -21,9 +34,9 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_favoriteNum",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
 					}
 				],
 				"name": "store",
@@ -45,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/First.sol": "SimpleStorage"
+			"contracts/Second.sol": "SimpleStorageText"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -59,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/First.sol": {
-			"keccak256": "0x2f79f4cb5ff19459c23ca9b428deb95ed3063a993cdf4b3d967bd35bfce79796",
+		"contracts/Second.sol": {
+			"keccak256": "0x6e9554e5b4cf2bcd6493e581ef2b0b15e20e9544475320e07fb9a6ffcf5ca5c8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://30af415261c7874a82e95c417e4ce849b40f7344fffa12ccff17ec6fa083161b",
-				"dweb:/ipfs/QmWx1HgD6KrPF6B1StXTJH6qMXMaH3NMyZpwLmj6F4uiVz"
+				"bzz-raw://abc75bebe5559ef74d4337edbdbb168dd74f8f66f649801777836e0522e663b5",
+				"dweb:/ipfs/Qma9VZvtK9Tx7eo7snbNuR3vERLd35atFjfHkw16zjDhmt"
 			]
 		}
 	},

@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/First.sol": "SimpleStorage"
+			"contracts/First.sol": "SimpleStorageNumber"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/First.sol": {
-			"keccak256": "0x2f79f4cb5ff19459c23ca9b428deb95ed3063a993cdf4b3d967bd35bfce79796",
+			"keccak256": "0xd5289e17918ba0fbbf7b55f1155d40c5dabca3c00385f8eee88d6afedd7df4d6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://30af415261c7874a82e95c417e4ce849b40f7344fffa12ccff17ec6fa083161b",
-				"dweb:/ipfs/QmWx1HgD6KrPF6B1StXTJH6qMXMaH3NMyZpwLmj6F4uiVz"
+				"bzz-raw://00c0f7bcedef0e4d365639ec2c3a9380e403300bb4f4a8a2d561305c20f19e84",
+				"dweb:/ipfs/Qmbavnobs4q512ZrWjjEByMmGmd4N6FwV9AQG9QUQBT7cz"
 			]
 		}
 	},
