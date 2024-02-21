@@ -8,17 +8,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"name": "FindNumByText",
-				"outputs": [
-					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"name": "FindTextByNumber",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -32,17 +32,17 @@
 						"type": "uint256"
 					}
 				],
-				"name": "ListofAnimals",
+				"name": "ListofWome",
 				"outputs": [
-					{
-						"internalType": "string",
-						"name": "Name",
-						"type": "string"
-					},
 					{
 						"internalType": "uint256",
 						"name": "Number",
 						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -61,7 +61,7 @@
 						"type": "string"
 					}
 				],
-				"name": "addAnimal",
+				"name": "addWomen",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -116,7 +116,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/mapping.sol": "Mapping"
+			"contracts/mapping1.sol": "Mapping"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -130,12 +130,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/mapping.sol": {
-			"keccak256": "0x4902120c4dcad124211aa9ba246b5f7eca99b5943ebaf4ea680b2ab91ab735e7",
+		"contracts/mapping1.sol": {
+			"keccak256": "0x5fdaa592321b6dc953beb6d7abcc7dbf9a7b7ba802ef868b11d43cfe645a32eb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dc8343baa1bbbf43b8fcc9175a5d5051ff63195be1932e042453c6baf7647807",
-				"dweb:/ipfs/QmQ557CgrudHZRosHC99D2bhwref3eFF6jn45q9Tp2E8nP"
+				"bzz-raw://fc8c4971d033374126fc534e983773bd4c59802435fde2a844273f99b46bcc83",
+				"dweb:/ipfs/QmZMzJGrSAq5YawQcWcSgd3i8b4mL7m6KCaZJwZaUMs7ot"
 			]
 		}
 	},
